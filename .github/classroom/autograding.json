@@ -23,7 +23,7 @@
     {
       "name": "03",
       "setup": "",
-      "run": "./soal-03",
+      "run": "./soal-01",
       "input": "100 110 120\r\n130 140 150\r\n160 170 180\r\n90\r\na",
       "output": "Input sumbu mirror bukan x atau y!",
       "comparison": "included",
