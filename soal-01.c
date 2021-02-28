@@ -66,7 +66,10 @@ int main(){
         printf("Output matriks rotasi %d derajat dan mirror sumbu %c:\n", deg, c);
         for(int i=0; i<3; i++){
             for(int j=0; j<3; j++){
-                printf("%d ", *(*(matrix + i) + j));
+                if (j != 2)
+                    printf("%d ", *(*(matrix + i) + j));
+                else
+                    printf("%d", *(*(matrix + i) + j));
             }
             printf("\n");
         }
