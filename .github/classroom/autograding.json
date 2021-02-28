@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "01",
+      "setup": "make soal-01",
+      "run": "./soal-01",
+      "input": "1 2 3\r\n4 5 6\r\n7 8 9\r\n90\r\nx",
+      "output": "9 6 3\r\n8 5 2\r\n7 4 1",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "02",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "10 11 12\r\n13 14 15\r\n16 17 18\r\n20",
+      "output": "Sudut rotasi bukan kelipatan 90 derajat!",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "03",
+      "setup": "",
+      "run": "./soal-03",
+      "input": "100 110 120\r\n130 140 150\r\n160 170 180\r\n90\r\na",
+      "output": "Input sumbu mirror bukan x atau y!",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "04",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "-10 -2 21\r\n32 -52 4\r\n79 8 49\r\n9000\r\ny",
+      "output": "21 -2 -10\r\n4 -52 32\r\n49 8 79",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "05",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "-50 -211 2900\r\n31 -5 882\r\n999 3793 9\r\n180\r\ny",
+      "output": "999 3793 9\r\n31 -5 882\r\n-50 -211 2900",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "06",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "21 06 1997\r\n2015 2019 2020\r\n-10 -82 -3\r\n270\r\nx",
+      "output": "21 2015 -10\r\n6 2019 -82\r\n1997 2020 -3",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "07",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "0 283 7\r\n99 17 -2\r\n83 6433 10\r\n0\r\nx",
+      "output": "83 6433 10\r\n99 17 -2\r\n0 283 7",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "08",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "33 99 22\r\n66 77 55\r\n-22 -11 -88\r\n800",
+      "output": "Sudut rotasi bukan kelipatan 90 derajat!",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "09",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "922 9382 -332\r\n1000000 2902902 -29\r\n30 82 7333\r\n450\r\ny",
+      "output": "922 1000000 30\r\n9382 2902902 82\r\n-332 -29 7333",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "10",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "1 3 2\r\n1 5 0\r\n0 2 1\r\n1080\r\nz",
+      "output": "Input sumbu mirror bukan x atau y!",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    }
+  ]
+}
